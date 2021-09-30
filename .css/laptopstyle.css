@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+}
+.navbar {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.navbar a {     /* link on navbar */
+    color: black;
+    font-weight: bold;
+}
+
+#left-nav, #right-nav {
+    top: 70%;
+}
+
+.navbar a:hover {   /* link display changed when hovering on */
+    background-color: gray;
+    color:white;
+    text-decoration: none;
+}
+
+#banner {
+    height: auto;
+    position: relative;
+    top:-20%;
+}
+
+#banner img {
+    padding: 0px;
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+#banner .content {
+    color: white;
+}
+
+#banner .content h1 {
+    height: 1em;
+    font-size: 2.5em;               
+    font-family: 'Crimson Text', sans-serif;
+}
+
+#banner .content p {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+/* images section */
+
+#image-section {
+   position: relative;
+   top: -25px;
+   padding-left: 0%;
+   padding-top: 1px;
+   background-color:#ebe7e7;
+}
+
+#image-section h3 {
+    font-family: sans-serif; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    height: 20px;
+    padding-left: 2%;
+}
+
+#image-section p {
+    font-family:sans-serif;
+    font-size: 10px;
+    padding-left: 2%;
+}
+
+#image-section img {
+    margin-bottom: 5%;
+}
+
+#footer-container {
+    display: flex;
+    position: relative;
+    padding-left: 0%;
+    padding-bottom: 2%;
+    top: -25px;
+    background-color:#f7eeee;
+}
+
+#footer-container div {
+    padding-top: 1%;
+}
+
+#footer-container h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 1.5em;
+}
+
+#footer-container p {
+    padding-left: 0px;
+    font-size: 0.9em;
+}
+
+#footer-container a {
+    font-size: 0.9em;
+}
